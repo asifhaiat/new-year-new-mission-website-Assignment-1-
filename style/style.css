@@ -88,7 +88,7 @@
   margin-top: 150px;
 }
 
-.future-plan-container{
+.future-plan-container {
   text-align: justify;
   padding: 5px 3vw;
 }
@@ -110,7 +110,6 @@
   font-size: 16px;
   color: #444343;
   margin-top: 24px;
-  
 }
 
 .future-plan-items {
@@ -168,12 +167,16 @@
 /* mindset section */
 .mindset-section {
   margin: 10px 15vw;
+  position: inherit;
 }
+
 .mindset-container {
   padding: 40px 2vw;
   margin-top: 50px;
-  background-image: url(../images/gradient2.png);
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
   background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: 100%, cover;
   height: 300px;
 }
 
