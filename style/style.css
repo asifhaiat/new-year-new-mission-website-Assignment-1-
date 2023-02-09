@@ -117,3 +117,33 @@
   color: #737272;
 }
 
+/* mindset section */
+.mindset-section {
+  margin: 10px 15vw;
+}
+.mindset-container {
+  padding: 40px 2vw;
+  margin-top: 50px;
+  background-image: url(../images/gradient2.png);
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: start;
+  left: 294px;
+}
+
+.all-button {
+  color: #f15b22;
+  background: #ffffff;
+  border: none;
+  height: 50px;
+  padding: 0px 20px;
+  margin-top: 24px;
+  border-radius: 5px;
+  font-weight: 700;
+}
