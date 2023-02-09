@@ -11,7 +11,7 @@
   background-size: cover;
   height: 100vh;
   text-align: right;
-  padding: 250px 250px 150px;
+  padding: 220px 210px 100px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
@@ -77,19 +77,26 @@
   color: #444343;
   list-style: none;
 }
-/* Future Plan */
 
-.future-plan-section{
+/* Future Plan */
+.future-plan-section {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
-  margin-top: 50px;
+  padding: 15px 5vw;
+  margin-top: 150px;
 }
-.future-plan-img{
-  width: 35%;
-  height: 100%;
+
+.future-plan-container{
+  text-align: justify;
+  padding: 5px 3vw;
+}
+
+.future-plan-img {
+  width: 50%;
   border-radius: 3px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .future-plan-heading {
@@ -99,21 +106,23 @@
 }
 
 .future-plan-description {
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
   color: #444343;
   margin-top: 24px;
+  
 }
 
 .future-plan-items {
   margin-top: 23px;
-  font-style: normal;
   font-weight: 900;
   font-size: 16px;
   color: #444343;
   list-style: none;
+}
+
+.li-span {
+  color: darksalmon;
 }
 
 /* My Plans section */
