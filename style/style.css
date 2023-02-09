@@ -11,7 +11,7 @@
   background-size: cover;
   height: 100vh;
   text-align: right;
-  padding: 250px 100px 150px;
+  padding: 250px 250px 150px;
 }
 
 .banner-heading {
@@ -42,7 +42,7 @@
 
 /* Main Section */
 .main-section {
-  /* padding: 5px 30vw; */
+  padding: 5px 5vw;
   margin-top: 150px;
 }
 
@@ -75,8 +75,45 @@
   font-size: 16px;
   color: #444343;
   list-style: none;
-  
 }
 
-.icon{
+/* My Plans section */
+.plans-section {
+  padding: 10px 15vw;
 }
+
+.plans-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.plans-items {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.plans-images {
+  margin-bottom: 10px;
+}
+
+.plans-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 10px;
+}
+
+.plans-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+
