@@ -12,6 +12,7 @@
   height: 100vh;
   text-align: right;
   padding: 250px 250px 150px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .banner-heading {
@@ -141,12 +142,13 @@
   color: #f15b22;
   background: #ffffff;
   border: none;
-  height: 50px;
+  height: 40px;
   padding: 0px 20px;
   margin-top: 24px;
   border-radius: 5px;
   font-weight: 700;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* Footer Section */
@@ -178,6 +180,7 @@
   font-size: 16px;
   color: #ffffff;
   margin-top: 16px;
+  border-radius: 3px;
 }
 
 .footer-number {
