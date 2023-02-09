@@ -41,7 +41,42 @@
 }
 
 /* Main Section */
-.main-section{
-    margin: 100px 30vw;
-    /* padding: 100px 30vw; */
+.main-section {
+  /* padding: 5px 30vw; */
+  margin-top: 150px;
+}
+
+.failures-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.failures-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.failures-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-top: 24px;
+}
+
+.failures-items {
+  margin-top: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  list-style: none;
+  
+}
+
+.icon{
 }
